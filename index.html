@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta name="author" content="Christopher Yie Lam">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio - Christopher Yie Lam</title>
+		<!-- animate.css -->
+		<link rel="stylesheet" href="css/animate.css" />
+		<!-- style.css -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- jquery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- custom.js -->
+		<script src="js/custom.js"></script>
+	</head>
+	<body>
+		<a href="#menu_navigation" class="scroll" id="scroll">
+			<span></span>
+		</a>
+		<ul class="active animated fadeInRight" id="menu_navigation">
+			<li class="icon">
+				<a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+			</li>
+			<div id="menu_break">
+				<br><br>
+			</div>
+			<hr class="divider animated fadeIn" width="30%" size="3">
+			<li>
+				<a class="buttonscroll" href="#aboutme">ABOUT</a>
+			</li>
+			<hr class="divider animated fadeIn" width="30%" size="3">
+			<li>
+				<a class="buttonscroll" href="#experience">EXPERIENCE</a>
+			</li>
+			<hr class="divider animated fadeIn" width="30%" size="3">
+			<li>
+				<a class="buttonscroll" href="#project">PROJECTS</a>
+			</li>
+			<hr class="divider animated fadeIn" width="30%" size="3">
+		</ul>
+		<div id="break2">
+			<br><br><br><br>
+		</div>
+		<hr class="animated fadeIn" id="menu_divider" width="50%" size="3">
+		<img class="animated fadeInDown" id="profile_picture" src="img/profile_picture.jpg" />
+		<div id="header_section">
+			<h1 id="name">CHRISTOPHER YIE LAM</h1>
+			<h2 id="tagline">Software Engineer | Designer | Developer</h2>
+			<br>
+			<a class="contact_link" href="mailto:lamcy1@uci.edu" title="Email">
+				<img id="email_logo" class="animated fadeIn" src="img/email-logo.png" />
+			</a>
+			<a class="contact_link" target="_blank" href="https://github.com/chrisylam" title="GitHub">
+				<img id="github_logo" class="animated fadeIn" src="img/github-logo.png" />
+			</a>
+			<a class="contact_link" target="_blank" href="https://www.linkedin.com/in/christopher-lam-7581b9b0" title="LinkedIn">
+				<img id="linkedin_logo" class="animated fadeIn" src="img/linkedin-logo.png" />
+			</a>
+			<a class="contact_link" target="_blank" href="resume.pdf" title="Resume">
+				<img id="resume_logo" class="animated fadeIn" src="img/resume-logo.png" />
+			</a>
+		</div>
+		<div id="about_section">
+			<h1 class="section_title animated fadeInLeft" id="aboutme">About Me</h1>
+			<p id="bio">Hi, my name is Christopher! I'm an aspiring software engineer that has experience and strong interest in web and GUI application development. I'm currently attending UC Irvine as a Software Engineering major and hope to pursue graduate school in the future in order to further expand my knowledge in the Computer Science field and tech industry! Some of my technical skills include C++, Java, HTML/CSS/JavaScript, PHP, and basic knowledge of jQuery. Some hobbies and interests include NBA basketball, hiking, mountain biking, and front-end web programming!</p>
+		</div>
+		<div id="experience_section">
+			<h1 class="section_title animated fadeInLeft" id="experience">Experience</h1>
+			<h3 class="experience_bullet"><b>Software Engineering Intern</b></h3>
+			<img id="giac_logo" src="img/giac-logo.png" />
+			<h4 class="experience_bullet"><i>Garrett Integrated Automotive Corporation</i></h4>
+			<h5 class="experience_bullet">June 2016 - September 2016 | Irvine, California</h5>
+			<ul>
+				<li>Assist senior engineers with projects involving software GUI applications</li>
+				<li>Coding embedded firmware in languages for various target devices</li>
+				<li>Contribute to micro controller and network software development</li>
+				<li>Maintain lab notes and present progress on projects to engineering staff</li>
+			</ul>
+			<br>
+			<h3 class="experience_bullet"><b>ICS 45C Lab Tutor</b></h3>
+			<img id="uci_logo" src="img/uci-logo.png" />
+			<h4 class="experience_bullet"><i>University of California, Irvine</i></h4>
+			<h5 class="experience_bullet">March 2016 - June 2016 | Irvine, California</h5>
+			<ul>
+				<li>Assisted students in educating fundamental concepts in C++ and debugging code</li>
+				<li>Developed and produced a pedagogical item for publication and student use</li>
+				<li>Performed quality control on teaching materials to maintain and ensure correctness and consistency</li>
+			</ul>
+		</div>
+		<div id="project_section">
+			<h1 class="section_title animated fadeInLeft" id="project">Projects</h1>
+			<h3 class="projecttitle_bullet">AI Game</h3>
+			<img class="ai_image" id="ai1" src="img/othello-ui1.png" />
+			<img class="ai_image" id="ai2" src="img/othello-ui2.png" />
+			<p class="project_bullet">Developed an AI that competitively participates against users or other AI’s in Othello. It utilizes C++ recursive functions and a heuristic search algorithm to attempt to achieve maximum wins.</p>
+			<br>
+			<hr class="project_divider">
+			<h3 class="projecttitle_bullet">Open Kitchen</h3>
+			<img id="openkitchenimage" src="img/open-kitchen.png" />
+			<p class="project_bullet">A social website that allows college students to order and cook meals for each other. I assisted in writing requirements engineering documents and developing user interface mock-ups and helped with front-end coding and design.</p>
+			<br>
+			<hr class="project_divider">
+			<h3 class="projecttitle_bullet">Data Structures - Location Mapping</h3>
+			<p class="project_bullet">Determines the shortest distance and times between any pair of given locations. Implemented using maps, classes, lists, depth first search, Dijkstra’s algorithm, and queues. Created Google unit tests that examines and evaluates the accurateness of the program.
+			</p>
+			<br><br>
+		</div>
+	</body>
+</html>
